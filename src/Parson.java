@@ -11,7 +11,7 @@ public class Parson {
 	}
 
 	public setFirstName(String setFirstName){
-    	firstName = getFirstName();
+    	firstName = firstName;
 	}
 
 	public String getLastName(){
@@ -19,7 +19,7 @@ public class Parson {
 	}
 
 	public setLastName(String setLastName){
-		lastName = getLastName();
+		lastName = lastName;
 	}
 
 	public String showName(){
@@ -41,4 +41,3 @@ public static void main(String[] arg){
 
 
 
-}
