@@ -32,7 +32,7 @@ public class Parson {
 渡辺　高志　1.3
 和田　充史　2
 
-public static void sample{
+public static void main(String[] arg){
 	Parson.setLastName("渡辺");
 	Parson.setFirstName("高志");
 	Parson.showName();
