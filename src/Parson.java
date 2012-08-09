@@ -33,9 +33,15 @@ public class Parson {
 //和田　充史　2
 
 public static void main(String[] arg){
-	Parson.setLastName("渡辺");
-	Parson.setFirstName("高志");
-	Parson.showName();
+	Parson1.setLastName("渡辺");
+	Parson1.setFirstName("高志");
+	Parson1.showName();
+
+	Parson2.setLastName("");
+	Parson2.setFirstName("");
+	Parson2.showName();
+
+	Parson1.showName();
 
 }
 
