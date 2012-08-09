@@ -33,9 +33,9 @@ public class Parson {
 和田　充史　2
 
 public static void sample{
-	Parson.getLastName("")
-	Parson.getFirstName("")
-	Parson.showName("")
+	Parson.getLastName("渡辺");
+	Parson.getFirstName("高志");
+	Parson.showName();
 
 }
 
