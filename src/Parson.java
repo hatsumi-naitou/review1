@@ -23,7 +23,7 @@ public class Parson {
 	}
 
 	public String showName(){
-		System.out.println("氏：" +  + "　名：" +  + );
+		System.out.println("氏：" + lastName + "　名：" + firstName + );
 		//氏：ラストネーム＿名：ファーストネーム　をコンソールに表示する
 	}
 
